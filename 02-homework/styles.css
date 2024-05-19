@@ -2,7 +2,7 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.fruit-list {
+.fruit__list {
   list-style: decimal inside;
   background-color: #ff8ebd;
   padding: 20px;
@@ -10,13 +10,13 @@ body {
   margin: 0 auto;
 }
 
-.fruit-list li {
+.fruit__list li {
   margin: 10px 0;
   padding: 5px;
   background-color: #ff6b9c;
 }
 
-.fruit-list span {
+.fruit__list span {
   background-color: #ff1a94;
   padding: 5px;
 }
