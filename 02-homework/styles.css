@@ -1,0 +1,22 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.fruit-list {
+  list-style: decimal inside;
+  background-color: #ff8ebd;
+  padding: 20px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.fruit-list li {
+  margin: 10px 0;
+  padding: 5px;
+  background-color: #ff6b9c;
+}
+
+.fruit-list span {
+  background-color: #ff1a94;
+  padding: 5px;
+}
