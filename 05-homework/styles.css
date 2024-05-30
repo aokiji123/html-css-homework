@@ -1,0 +1,70 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 60px;
+  background-color: #333;
+  overflow-x: hidden;
+  transition: width 1s;
+  z-index: 1000;
+}
+
+.sidebar:hover {
+  width: 200px;
+}
+
+.menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.menu-item {
+  padding: 20px;
+  color: white;
+  transition: background-color 0.3s;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.menu-item:hover {
+  background-color: #555;
+  cursor: pointer;
+}
+
+.icon {
+  width: 60px;
+}
+
+.text {
+  display: inline-block;
+  opacity: 0;
+  transition: opacity 1s;
+}
+
+.sidebar:hover .text {
+  opacity: 1;
+}
+
+.content {
+  padding: 20px;
+  margin-left: 60px;
+}
+
+h1 {
+  margin-top: 0;
+}
