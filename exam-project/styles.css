@@ -129,6 +129,7 @@ footer {
 }
 
 .series__genres {
+  display: flex;
   margin-top: 20px;
   font-size: 18px;
   text-align: left;
@@ -140,6 +141,7 @@ footer {
   background-color: #cccccc;
   border-radius: 20px;
   border: 1px solid #000;
+  margin: 0 5px 5px 0;
 }
 
 .navigation__list {
@@ -154,4 +156,37 @@ footer {
 
 .footer__link {
   color: #fff;
+}
+
+@media (max-width: 700px) {
+  img {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border: 2px solid #000;
+  }
+  
+  .series__genres  {
+    flex-wrap: wrap;
+  }
+  
+  .series__content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .series__right {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 500px) {
+  footer {
+    flex-direction: column;
+  }
+  
+  .footer__link {
+    margin-bottom: 10px;
+  }
 }
