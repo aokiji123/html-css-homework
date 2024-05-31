@@ -189,4 +189,8 @@ footer {
   .footer__link {
     margin-bottom: 10px;
   }
+  
+  .series__item:last-child {
+    margin-bottom: 100px;
+  }
 }
